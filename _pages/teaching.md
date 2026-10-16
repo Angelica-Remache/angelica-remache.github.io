@@ -12,7 +12,7 @@ author_profile: true
 **PS 231A: Quantitative Analysis in Political Research** (Ph.D. course), 2026
 <br>Graduate Student Instructor. Instructor of record: Erin Hartman
 
-**The Politics of Immigration**, 2025
+**PS 138Z: The Politics of Immigration**, 2025
 <br>Graduate Student Instructor. Instructor of record: Stephanie Zonszein
 
 ## University of Wisconsin
