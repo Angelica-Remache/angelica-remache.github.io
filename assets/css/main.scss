@@ -36,3 +36,86 @@
     "layout/archive",
     "layout/sidebar"
 ;
+/* ==========================================================================
+   Custom style: Berkeley Blue menu bar, clean typography
+   ========================================================================== */
+
+$berkeley-blue: #003262;
+$california-gold: #FDB515;
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Sans', -apple-system, sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+p, li, dl { font-family: 'Inter', sans-serif; font-size: 0.97em; }
+
+/* Menu bar */
+.masthead, .masthead__inner-wrap, .greedy-nav, .masthead__menu-item {
+  background: $berkeley-blue !important;
+  background-color: $berkeley-blue !important;
+}
+.masthead::after { background: $california-gold !important; height: 2px !important; }
+
+.greedy-nav a {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.78) !important;
+  transition: color 0.15s ease;
+}
+.greedy-nav a:hover { color: #ffffff !important; }
+.greedy-nav .visible-links li:first-child a {
+  font-size: 0.92em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: #ffffff !important;
+}
+.greedy-nav .visible-links a:before { background: $california-gold !important; }
+.masthead__menu-item.selected a { color: #ffffff !important; border-bottom-color: $california-gold !important; }
+.greedy-nav button { background-color: $berkeley-blue !important; }
+.greedy-nav .hidden-links { background: $berkeley-blue !important; border: 1px solid rgba(255, 255, 255, 0.1); }
+.greedy-nav .hidden-links a { color: rgba(255, 255, 255, 0.85) !important; background: $berkeley-blue !important; }
+.greedy-nav .hidden-links:after { border-color: $berkeley-blue transparent !important; }
+
+/* Sidebar */
+.sidebar { font-family: 'Inter', sans-serif; }
+.author__name, .sidebar .author__name {
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1.05em !important;
+  color: #1a1a1a;
+  letter-spacing: -0.01em;
+}
+.author__bio { font-family: 'Inter', sans-serif !important; font-size: 0.82em !important; color: #777; }
+.author__urls-wrapper { font-family: 'Inter', sans-serif; }
+
+/* Page content */
+.page__content { font-family: 'Inter', sans-serif; }
+.page__content h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $berkeley-blue;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.4em;
+  margin-top: 2em;
+}
+.page__title { font-family: 'DM Sans', sans-serif; font-weight: 500; color: #1a1a1a; }
+.page__content a { color: $berkeley-blue; }
+.page__content a:hover { color: #3B7EA1; }
+.page__footer { font-family: 'Inter', sans-serif; font-size: 0.78em; letter-spacing: 0.02em; }
