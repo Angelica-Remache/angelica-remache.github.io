@@ -11,10 +11,6 @@ author_profile: true
 Why do Latin Americans emigrate during periods of economic growth? I argue that petty corruption, paying bribes to access public services and opportunities, is a distinct migration push factor, independent of poverty and violence.
 <br>*Presented at:* The Migration Conference 2026 (Bratislava); Berkeley Latin American Politics Workshop (2026); Latin American Studies Association (2025).
 
-## Dissertation Project
-
-**[Working title and short description here.]**
-
 ## Publications
 
 **Book Chapters**
