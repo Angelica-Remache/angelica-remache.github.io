@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I am Angelica Remache Lopez, a Ph.D. student at the University of California, Berkeley, specializing in Comparative Politics, Political Economy, and Methods. My research interests focus on migration, economic development, and corruption. I am particularly interested in the Latin American region, where my research has examined how political corruption incentivizes emigration; the impact of youth unemployment on migration; and the effects of government performance on economic and human development.
+Hello! I am Angelica Remache Lopez, a Ph.D. student at the University of California, Berkeley, specializing in Comparative Politics, Political Economy, and Methods. My research interests focus on migration, economic development, and corruption. I am particularly interested in the Latin American region, where my research has examined how political corruption incentivizes emigration; the impact of youth unemployment on migration; and the effects of government performance on economic and human development.
 
 ## Research
 
