@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-[Download my CV (PDF)](/files/CV_AngelicaRemacheLopez.pdf?v=20261016c)
+[Download my CV (PDF)](/files/CV_AngelicaRemacheLopez.pdf?v=20261019)
