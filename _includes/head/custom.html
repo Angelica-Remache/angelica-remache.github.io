@@ -2,8 +2,8 @@
 
 <!-- start custom head snippets -->
 
-<!-- Always use the light theme -->
-<script>try { localStorage.setItem("theme", "light"); } catch (e) {}</script>
+<!-- Follow the visitor's system theme (no manual toggle) -->
+<script>try { localStorage.removeItem("theme"); } catch (e) {}</script>
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
